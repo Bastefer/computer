@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".card3">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="wrap_content"
+        android:layout_width="395dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="11dp"
-
-        android:text="Intel Core i7-12700 BOX"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="11dp"
+        android:text="Видеокарта ColorFul iGame GeForce RTX 3050 Ultra W DUO OC"
         android:textSize="12pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5"
         tools:ignore="MissingConstraints" />
@@ -24,9 +26,9 @@
         android:layout_height="57dp"
         android:layout_marginStart="11dp"
         android:backgroundTint="#4074E6"
-        android:onClick="toOrder"
+        android:onClick="toOrderFromVideo"
         android:radius="10dp"
-        android:text="22 999 ₽"
+        android:text="27 999 ₽"
         android:textColor="#F5EEEE"
         android:textSize="9pt"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,10 +37,12 @@
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="392dp"
+        android:layout_width="386dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="11dp"
-        android:text="За производительность Intel Core i7-12700 отвечает 8 производительных, 4 энергоэффективных ядер и 20 потоков, которые могут работать в широком диапазоне частот. Благодаря этому, а также большому кэшу разных уровней процессор может обеспечить высокое быстродействие в самых разных условиях.  "
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Видеокарта ColorFul iGame GeForce RTX 3050 Ultra W DUO OC создана на базе высокопроизводительной архитектуры NVIDIA Ampere. Отличная производительность для игр и работы с графикой благодаря улучшенным ядрам RT и тензорным ядрам, потоковым мультипроцессорам и высокоскоростной памяти G6. Вооружитесь мощностью видеокарт GeForce RTX."
         android:textSize="9pt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -48,15 +52,14 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="389dp"
-        android:layout_height="389dp"
+        android:layout_width="400dp"
+        android:layout_height="203dp"
         android:layout_marginStart="11dp"
-        android:layout_marginTop="11dp"
+        android:layout_marginTop="4dp"
         android:layout_marginEnd="11dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/pros03" />
-
-
+        app:srcCompat="@drawable/videok1" />
 </androidx.constraintlayout.widget.ConstraintLayout>

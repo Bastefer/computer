@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="389dp"
+        android:layout_height="389dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="11dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/math4" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="11dp"
+        android:text="Материнская плата MSI PRO H610M-E DDR4"
+        android:textSize="12pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="139dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="11dp"
+        android:backgroundTint="#4074E6"
+        android:onClick="toOrderFromOrderMath"
+        android:radius="10dp"
+        android:text="6 499 ₽"
+        android:textColor="#F5EEEE"
+        android:textSize="9pt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="11dp"
+        android:text="Материнская плата MSI PRO H610M-E DDR4 станет надежным решением для сборки офисной рабочей станции. Она выполнена в форм-факторе Micro-ATX и содержит в своей основе чипсет Intel H610 с процессорным разъемом LGA 1700. В оснащение платы входят 2 слота под размещение до 64 ГБ оперативной памяти, 4 разъема SATAIII и 1 разъем M.2 под установку накопителей, по одному слоту расширения PCI-E x16 и PCI-E x1."
+        android:textSize="9pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,15 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class activity_about extends AppCompatActivity {
+public class ActivityMath extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_about);
+        setContentView(R.layout.activity_math);
     }
-    public void toMainActivity(View v) {
-        Intent intent = new Intent(activity_about.this, MainActivity.class);
+    public void toOrderFromOrderMath(View v) {
+        Intent intent = new Intent(ActivityMath.this, orderActivity.class);
         startActivity(intent);
     }
 }

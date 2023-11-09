@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">YipShop</string>
+    <string name="app_name">Computer Compass</string>
     <string name="show_welcome">Добро пожаловать в магазин Yip</string>
     <string name="button_start">начать покупки</string>
     <string name="first">первый</string>

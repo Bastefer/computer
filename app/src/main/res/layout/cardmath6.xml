@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".card3">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="389dp"
+        android:layout_height="389dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="11dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/math6" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="11dp"
-
-        android:text="Intel Core i7-12700 BOX"
+        android:text="Материнская плата MSI MAG B660M MORTAR"
         android:textSize="12pt"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5"
@@ -24,9 +33,9 @@
         android:layout_height="57dp"
         android:layout_marginStart="11dp"
         android:backgroundTint="#4074E6"
-        android:onClick="toOrder"
+        android:onClick="toOrderFromOrderMath"
         android:radius="10dp"
-        android:text="22 999 ₽"
+        android:text="14 999 ₽"
         android:textColor="#F5EEEE"
         android:textSize="9pt"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,28 +44,15 @@
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="392dp"
+        android:layout_width="382dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="11dp"
-        android:text="За производительность Intel Core i7-12700 отвечает 8 производительных, 4 энергоэффективных ядер и 20 потоков, которые могут работать в широком диапазоне частот. Благодаря этому, а также большому кэшу разных уровней процессор может обеспечить высокое быстродействие в самых разных условиях.  "
+        android:text="Материнская плата MSI MAG B660M MORTAR компактного форм-фактора ориентирована на игровые сборки и предлагает все необходимое для достижения мощного вычислительного потенциала в компьютерных играх. В оснащение данной модели входят 4 модуля стандарта DDR5, слоты PCI-E x16 версии 4.0 и PCI-E x1 для графического адаптера, 2 разъема M.2."
         android:textSize="9pt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8"
         tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="389dp"
-        android:layout_height="389dp"
-        android:layout_marginStart="11dp"
-        android:layout_marginTop="11dp"
-        android:layout_marginEnd="11dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/pros03" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

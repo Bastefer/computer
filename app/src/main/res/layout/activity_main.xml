@@ -19,6 +19,19 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
+    <ImageView
+        android:id="@+id/imageVi"
+        android:layout_width="375dp"
+        android:layout_height="375dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/prev3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="110dp"
@@ -37,6 +50,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:backgroundTint="#000000"
+        android:onClick="startnewActivityAbout"
         android:radius="10dp"
         android:text="О программе"
         android:textColor="#039BE5"
@@ -53,6 +67,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:backgroundTint="#FFFFFF"
+        android:onClick="startnewActivityVideo"
         android:text="Видеокарты"
         android:textColor="#2196F3"
         android:textSize="13pt"
@@ -68,10 +83,11 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:backgroundTint="#FFFFFF"
+        android:onClick="startnewActivityMath"
         android:text="Материнские платы"
         android:textColor="#2196F3"
-        android:textSize="13pt"
 
+        android:textSize="13pt"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -84,7 +100,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:backgroundTint="#FFFFFF"
-        android:onClick="startnewActivity"
+        android:onClick="startnewActivityPros"
         android:text="Процессоры"
         android:textColor="#2196F3"
         android:textSize="13pt"

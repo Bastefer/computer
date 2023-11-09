@@ -2,7 +2,9 @@ package com.example.computer;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class card3 extends AppCompatActivity {
 
@@ -11,4 +13,5 @@ public class card3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.card3);
     }
+
 }

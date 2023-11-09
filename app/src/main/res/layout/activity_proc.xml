@@ -39,9 +39,35 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/third_item"
                 android:layout_width="match_parent"
-                android:layout_height="350dp">
+                android:layout_height="720dp">
 
                 <include layout="@layout/card3"/>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/fourth_item"
+                android:layout_width="match_parent"
+                android:layout_height="580dp">
+
+                <include layout="@layout/card4"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/fivth_item"
+                android:layout_width="match_parent"
+                android:layout_height="570dp">
+
+                <include layout="@layout/card5"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sixth_item"
+                android:layout_width="match_parent"
+                android:layout_height="740dp">
+
+                <include layout="@layout/card6"/>
 
             </androidx.cardview.widget.CardView>
 

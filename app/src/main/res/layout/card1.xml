@@ -18,15 +18,14 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="110dp"
-        android:layout_height="51dp"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="154dp"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="154dp"
-        android:text="Главная"
+        android:text="Процессоры"
         android:textSize="12pt"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />

@@ -17,4 +17,8 @@ public class activity_proc extends AppCompatActivity {
         Intent intent = new Intent(activity_proc.this, MainActivity.class);
         startActivity(intent);
     }
+    public void toOrder(View v) {
+        Intent intent = new Intent(activity_proc.this, orderActivity.class);
+        startActivity(intent);
+    }
 }

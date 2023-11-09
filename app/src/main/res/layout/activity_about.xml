@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".activity_about">
 
     <Button
         android:id="@+id/button8"
@@ -13,7 +15,7 @@
         android:layout_marginTop="668dp"
         android:layout_marginEnd="8dp"
         android:backgroundTint="#FFFFFF"
-        android:onClick="startnewActivity"
+        android:onClick="toMainActivity"
         android:text="На главную"
         android:textColor="#2196F3"
         android:textSize="13pt"
@@ -42,12 +44,42 @@
         android:layout_height="51dp"
         android:layout_marginStart="153dp"
         android:layout_marginEnd="148dp"
-        android:text="Главная"
+        android:radius="50dp"
+        android:text="Авторы"
         android:textSize="12pt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView6"
         tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="14dp"
+        android:radius="150dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:srcCompat="@drawable/aaqwe"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="34dp"
+        android:text="Исаков Ярослав и Даниил Алёшин"
+        android:textSize="9pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

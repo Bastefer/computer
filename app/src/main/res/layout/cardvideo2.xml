@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="11dp"
+        android:text="Видеокарта GIGABYTE AMD Radeon RX 6600 XT GAMING OC PRO"
+        android:textSize="12pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="139dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="11dp"
+        android:backgroundTint="#4074E6"
+        android:onClick="toOrderFromVideo"
+        android:radius="10dp"
+        android:text="34 999 ₽"
+        android:textColor="#F5EEEE"
+        android:textSize="9pt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Видеокарта GIGABYTE AMD Radeon RX 6600 XT GAMING OC версии PRO является мощной и надежной моделью для организации игровой платформы в настольном компьютере. Она позволяет окунуться в мир детализированного захватывающего изображения в играх различных жанров. Процессор функционирует с частотой 1968 МГц, а объем видеопамяти составляет 8 ГБ. Для подключения к источникам изображения в GIGABYTE AMD Radeon RX 6600 XT серии GAMING предлагаются по 2 разъема DisplayPort и HDMI. Массивный кулер с тремя вентиляторами быстро отводит тепло и предотвращает перегрев даже во время продолжительных игровых сеансов. Усиленная конструкция гарантирует устойчивость к деформации и повреждениям."
+        android:textSize="9pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="400dp"
+        android:layout_height="203dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="11dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/videok2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,6 +13,18 @@
         android:theme="@style/Theme.Computer"
         tools:targetApi="31">
         <activity
+            android:name=".OrderActivitySucsses"
+            android:exported="false" />
+        <activity
+            android:name=".orderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity_video"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityMath"
+            android:exported="false" />
+        <activity
             android:name=".card3"
             android:exported="false" />
         <activity
